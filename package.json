@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
@@ -15,4 +16,17 @@
     "@vitejs/plugin-vue": "^5.1.2",
     "vite": "^5.4.1"
   }
+=======
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0",
+        "vite": "^5.0"
+    }
+>>>>>>> 5dd6eeb0ec39aff48de854c0080d93a33d9cac81
 }
