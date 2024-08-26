@@ -1,10 +1,12 @@
-import { createStore } from "./index.js";
+import { createStore } from "vuex";
 
 const store = createStore({
-    state:{},
-    getters:{},
+    state:{
+        test:'1234'
+    },
+    getters: {},
     actions:{},
-    mutation:{},
-})
+    mutations:{}
+});
 
 export default store
